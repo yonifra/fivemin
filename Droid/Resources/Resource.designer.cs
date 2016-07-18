@@ -26,6 +26,7 @@ namespace FiveMin.Core.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Auth0.SDK.Resource.String.library_name = global::FiveMin.Core.Droid.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -44,8 +45,17 @@ namespace FiveMin.Core.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050002
+			public const int identityTextView = 2131034114;
+			
 			// aapt resource value: 0x7f050000
 			public const int myButton = 2131034112;
+			
+			// aapt resource value: 0x7f050003
+			public const int pictureTextView = 2131034115;
+			
+			// aapt resource value: 0x7f050001
+			public const int usernameTextView = 2131034113;
 			
 			static Id()
 			{
@@ -92,11 +102,14 @@ namespace FiveMin.Core.Droid
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040002
+			public const int app_name = 2130968578;
+			
 			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			public const int hello = 2130968577;
 			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public const int library_name = 2130968576;
 			
 			static String()
 			{
