@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
+    android:id="@+id/mainView"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <Button
-        android:id="@+id/myButton"
+        android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:text="@string/login" />
     <TextView
-        android:text="Medium Text"
+        android:text="Username"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/usernameTextView" />
     <TextView
-        android:text="Medium Text"
+        android:text="Email"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/identityTextView" />
+        android:id="@+id/emailTextView" />
     <TextView
-        android:text="Medium Text"
+        android:text="Profile Picture"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
